@@ -20,7 +20,7 @@ def T_RHSTU_PLANO_SAUDE(id_plano_saude,ds_razao_social,nm_fantasia_plano_saude,d
     planoSaude['DT_CADASTRO'] = dt_cadastro
     planoSaude['NM_USUARIO'] = nm_usuario
     return planoSaude 
-print("iniciado T_RHSTU_PLANO_SAUDE")
+print("iniciando T_RHSTU_PLANO_SAUDE")
 i=0
 while i < len(aleatorioPlanoSaude.planos_de_saude_reais):
        

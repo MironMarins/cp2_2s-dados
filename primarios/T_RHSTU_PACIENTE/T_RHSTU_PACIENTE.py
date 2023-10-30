@@ -1,5 +1,6 @@
 #import oracledb
 import primarios.T_RHSTU_PACIENTE.aleatorioPaciente as aleatorio
+#import aleatorioPaciente as aleatorio
 import csv
 import datetime as dt
 hoje = dt.date.today()
@@ -30,7 +31,7 @@ def T_RHSTU_PACIENTE(id_paciente,nm_paciente,nr_cpf,nm_rg,dt_nascimento,fl_sexo_
 
 
 
-print("iniciando contrução de T_RHSTU_PACIENTE")
+print("iniciando T_RHSTU_PACIENTE")
 for i in range(1,1500002):
             idPaciente = i
             nome = aleatorio.nomes()

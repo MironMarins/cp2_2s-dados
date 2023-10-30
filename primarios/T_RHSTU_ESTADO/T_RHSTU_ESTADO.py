@@ -13,7 +13,7 @@ def T_RHSTU_ESTADO(id_estado,sg_estado,nm_estado,dt_cadastro,nm_usuario):
     paciente['DT_CADASTRO'] = dt_cadastro
     paciente['NM_USUARIO'] = nm_usuario
     return paciente 
-print("iniciando contrução de T_RHSTU_ESTADO")
+print("iniciando T_RHSTU_ESTADO")
 i = 0
 while i < len(aleatorioEstado.estados):
                         
