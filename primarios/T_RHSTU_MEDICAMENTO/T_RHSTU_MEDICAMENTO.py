@@ -1,6 +1,6 @@
 import csv
-#import primarios.T_RHSTU_MEDICAMENTO.aleatorioMedicamento as aleatorioMedicamento 
-import aleatorioMedicamento
+import primarios.T_RHSTU_MEDICAMENTO.aleatorioMedicamento as aleatorioMedicamento 
+#import aleatorioMedicamento
 import datetime as dt
 hoje = dt.date.today()
 ListaMedicamentos=[]
