@@ -1,6 +1,7 @@
 import datetime as dt
 import csv
 import primarios.T_RHSTU_TIPO_CONTATO.aleatorioTipoContato as aleatorioTipoContato
+#import aleatorioTipoContato
 hoje = dt.date.today()
 ListatiposContatos=[]
 repeticao = 2
